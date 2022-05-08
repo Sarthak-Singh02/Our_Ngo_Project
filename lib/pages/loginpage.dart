@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
             child: SafeArea(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   CircleAvatar(
                     radius: 100,
