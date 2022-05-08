@@ -23,9 +23,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.homeRoute,
+      initialRoute: MyRoutes.loginRoute,
       routes: {
         MyRoutes.homeRoute: (context) => const HomePage(),
+        MyRoutes.loginRoute: (context) => const LoginPage(),
         MyRoutes.donateRoute: (context) => DonatePage(),
         MyRoutes.submitRoute: (context) => Submitted(),
         MyRoutes.helpUsRoute: (context) => HelpUs(),
