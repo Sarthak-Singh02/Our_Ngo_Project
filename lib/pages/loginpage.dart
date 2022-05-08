@@ -29,8 +29,8 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Center(
+    return Scaffold(
+      body: Center(
         child: SingleChildScrollView(
           child: Form(
             key: _formkey,
