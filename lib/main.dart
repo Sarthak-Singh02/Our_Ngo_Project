@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
       initialRoute: MyRoutes.loginRoute,
       routes: {
         MyRoutes.homeRoute: (context) => const HomePage(),
-        MyRoutes.homeRoute: (context) => const LoginPage(),
+        MyRoutes.loginRoute: (context) => const LoginPage(),
         MyRoutes.donateRoute: (context) => DonatePage(),
         MyRoutes.submitRoute: (context) => Submitted(),
         MyRoutes.helpUsRoute: (context) => HelpUs(),
